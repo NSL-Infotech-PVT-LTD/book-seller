@@ -3,6 +3,9 @@
 
 ```bash
   cp .env.example .env
+  ```
+create db book-seller in mysql
+```bash
   composer install
   php artisan migrate
   php artisan passport:install
